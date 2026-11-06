@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.pytest_cache/
+# Outputs computed from real CPI data: not committed until publication rights (gate G3) are confirmed in writing.
+reports/figures/
+reports/eda_summary.txt
+# Data files never live in the repository.
+*.csv
+*.xls
+*.xlsx
+*.parquet

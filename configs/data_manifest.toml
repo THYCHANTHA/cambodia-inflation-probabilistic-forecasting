@@ -1,0 +1,10 @@
+# Data files used by the project. The files themselves are stored OUTSIDE the repository
+# (default %USERPROFILE%\portfolio-data\p11-inflation\raw, or the P11_DATA_DIR environment variable).
+
+[core_dataef]
+file = "dataef_pd_66a9f36b36d76b00019fe83b_retrieved-2026-11-06.csv"
+sha256 = "6ae48968661f96d30486a3883481121034cec967f18f2deeb59deb06ea7f2cf6"
+url = "https://data.mef.gov.kh/api/v1/public-datasets/pd_66a9f36b36d76b00019fe83b/file"
+retrieved = "2026-11-06"
+dataset = "Cambodia's Inflation Rate 2005-2025 (Data EF); NIS Consumer Price Index, Phnom Penh, Oct-Dec 2006 = 100"
+geography = "Phnom Penh"

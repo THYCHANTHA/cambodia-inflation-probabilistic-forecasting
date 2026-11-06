@@ -1,0 +1,59 @@
+# Settings of research protocol v1.0 (docs/RESEARCH_PROTOCOL.md). Changing a value here is a protocol deviation
+# and must be logged in section 14 of the protocol.
+
+[protocol]
+version = "1.0"
+seed = 20261106
+horizons = [1, 3, 6, 12]
+quantile_levels = [0.05, 0.10, 0.25, 0.50, 0.75, 0.90, 0.95]
+
+[samples.core]
+first_index_month = "2005-01"
+first_yoy_month = "2006-01"
+last_month = "2025-12"
+n_yoy = 240
+
+[samples.extended]
+first_index_month = "2005-01"
+first_yoy_month = "2006-01"
+last_month = "2026-09"
+n_yoy = 249
+
+[split]
+dev_target_end = "2019-12"
+test_origin_start = "2020-01"
+
+[windows.MAIN]
+estimation_start = "2006-01"
+initial_window = 120
+scheme = "expanding"
+publication_lag = 0
+
+[windows.ROLL]
+estimation_start = "2006-01"
+initial_window = 120
+scheme = "rolling"
+publication_lag = 0
+
+[windows.P2010-96]
+estimation_start = "2010-01"
+initial_window = 96
+scheme = "expanding"
+publication_lag = 0
+
+[windows.P2010-120]
+estimation_start = "2010-01"
+initial_window = 120
+scheme = "expanding"
+publication_lag = 0
+
+[windows.LAG2]
+estimation_start = "2006-01"
+initial_window = 120
+scheme = "expanding"
+publication_lag = 2
+
+[extension_validation]
+overlap_tolerance = 0.006
+geography = "Phnom Penh"
+base_period = "October-December 2006 = 100"

@@ -1,0 +1,6 @@
+# Versions used for the Stage 3 run (system site-packages, nothing installed)
+# python 3.12.5
+numpy==2.4.3
+pandas==2.3.3
+scipy==1.17.0
+pytest==9.0.3
