@@ -2,8 +2,8 @@
 
 **Version 1.0, FROZEN 2026-11-06.** Written before any model was fitted to real data. v0.1 (draft, same date) contained
 four items marked [OWNER]; the owner decided all four on 2026-11-06 (section 13). Every later change goes into the
-deviations log (section 14) with date and reason. The Git commit hash of this version is recorded when the repository is
-created (none exists yet; the owner has not approved a commit).
+deviations log (section 14) with date and reason. **Frozen version committed as `3e42a84e2dd2101e774c423fbf7be45da637babf`**
+(first commit of the repository, 2026-11-06); `git diff 3e42a84 -- docs/RESEARCH_PROTOCOL.md` shows any later change.
 
 **Gates that remain open (the protocol is frozen, the research is not unblocked):**
 
